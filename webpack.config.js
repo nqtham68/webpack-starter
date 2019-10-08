@@ -30,7 +30,8 @@ module.exports = {
     },
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
-        port: 8080
+        port: 8080,
+        open: true
     },
     plugins: [
         new CopyPlugin([
